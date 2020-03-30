@@ -35,5 +35,10 @@ amplifyconfiguration.json
 amplify-gradle-config.json
 amplifyxc.config
 
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
 #Django Settings
 settings.py
